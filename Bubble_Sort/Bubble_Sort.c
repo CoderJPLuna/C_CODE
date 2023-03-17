@@ -3,7 +3,7 @@ void bubble_sort(int arr[],int sz)//数组传递参数的是元素的首地址
 {
     for(int i=0;i<sz-1;i++)//计算趟数
     {
-        for(int j=0;i<sz-1-i;j++)//计算每趟比较次数
+        for(int j=0;j<sz-1-i;j++)//计算每趟比较次数
         {
             if(arr[j]>arr[j+1])
             {
